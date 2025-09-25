@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { storage } from "../lib/storage";
 import { useNavigate } from "react-router-dom";
 import TextType from "../components/TextType";
+import TrueFocus from "../components/TrueFocus";
 
 export default function Signup() {
   const navigate = useNavigate();
@@ -23,9 +24,17 @@ export default function Signup() {
   return (
     <>
       <div className="min-h-screen grid place-items-center bg-black">
+        <TrueFocus
+          sentence="AI Course Generator"
+          manualMode={false}
+          blurAmount={5}
+          borderColor="rgb(184, 251, 60)"
+          animationDuration={2}
+          pauseBetweenAnimations={1}
+          className="text-[#b8fb3c] text-2xl font-bold"
+        />
         <TextType
           text={[
-            "AI Course Generator",
             "Apprends a coder une IA qui texplique...",
             "Comment coder une IA qui genere des cours",
           ]}
