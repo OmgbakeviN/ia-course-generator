@@ -83,7 +83,8 @@ export default function Signup() {
           <div className="text-center pt-4">
             <p className="text-xs text-gray-400">
               En continuant, vous acceptez nos{' '}
-              <a href="#" className="text-[#b8fb3c] hover:underline font-medium">conditions d'utilisation</a>
+              <a href="#" className="text-[#b8fb3c] hover:underline font-medium">conditions d'utilisation.</a>
+              <p className="text-[#b8fb3c] hover:underline font-medium">OMGBA PAUL KEVIN</p>
             </p>
           </div>
         </form>
